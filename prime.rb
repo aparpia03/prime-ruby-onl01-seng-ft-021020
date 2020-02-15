@@ -4,8 +4,12 @@
  def prime?(int)
     if int <= 1 
        false 
-    (2..int-1).collect do |number|
-      if int % number
+     else
+      (2..int-1).collect do |number|
+      if int % number == 0
+        return false
+        end
+      end
     end 
     
     
