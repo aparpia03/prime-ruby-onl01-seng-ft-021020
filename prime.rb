@@ -3,7 +3,7 @@
 
  def prime?(int)
     if int <= 1 
-       false 
+      return false 
      else
       (2..int-1).collect do |number|
       if int % number == 0
