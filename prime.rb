@@ -1,15 +1,15 @@
 # Add  code here!
 
-=begin
+
  def prime?(int)
-    if int < 1 
+    if int <= 1 
        false 
     elsif int == 1 || int == 0
       false 
     else
       true 
     end 
-=end  
+
   
   def prime?(int)
     
