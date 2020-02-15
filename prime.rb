@@ -3,7 +3,9 @@
 def prime?(int)
     if int < 1 
        false 
-    elsif int 
+    elsif int == 1 || int == 0
       false 
+    else
+      true 
     end 
-end  
+  end 
