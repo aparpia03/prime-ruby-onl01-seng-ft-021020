@@ -5,7 +5,7 @@
     if int <= 1 
        false 
     (2..int-1).collect do |number|
-      puts int%number
+      if int % number
     end 
     
     
