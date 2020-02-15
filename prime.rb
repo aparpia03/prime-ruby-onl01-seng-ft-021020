@@ -2,9 +2,9 @@
 
 def prime?(int)
     if int < 1 
-       !false 
+       false 
     elsif int == 1 || int == 0
-      !false 
+      false 
     else
       true 
     end 
