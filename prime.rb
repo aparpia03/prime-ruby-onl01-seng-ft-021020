@@ -1,6 +1,7 @@
 # Add  code here!
 
-def prime?(int)
+=begin
+ def prime?(int)
     if int < 1 
        false 
     elsif int == 1 || int == 0
@@ -8,4 +9,8 @@ def prime?(int)
     else
       true 
     end 
-  end 
+=end  
+  
+  def prime?(int)
+    
+    
